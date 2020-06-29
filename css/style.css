@@ -1,6 +1,7 @@
+
 @font-face { 
 font-family: "Pyidaungsu";
-src: url("Pyidaungsu.ttf") } 
+src: url("assets/Pyidaungsu.ttf") } 
 
 html,body   {
  
@@ -123,7 +124,7 @@ a:hover {
 
 .contact-view{
 	height: 280px;
-        width: 100%;
+	width:100%;
 	padding:30px;
 	background-color: #222;
 	border-top: 10px solid #778492;
@@ -138,7 +139,7 @@ a:hover {
 
 }
 .content-header{
-	width: 100%;
+	width: 30em;
 	margin: auto;
 	overflow: hidden;
 }
@@ -209,6 +210,9 @@ footer   {
   padding: 10px;
   text-align: center;
 }
+@media screen and (min-width:75em) {
+	
+}
 
 @media screen and (max-width:45em) {
 	.contact-view{
@@ -218,7 +222,7 @@ footer   {
 		text-align: center;
 	}
 	.logo{
-		margin-top: 40%;
+		margin-top: 10%;
 		margin-right: 0px;
 		float: none;
 	}
@@ -237,7 +241,7 @@ footer   {
 		left: 0px;
 	}
 	.view-inside{
-	width: 100%;
+	width: 90%;
 		margin-bottom: 0px;
 	}
 	
