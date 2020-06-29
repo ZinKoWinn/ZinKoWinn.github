@@ -52,7 +52,7 @@ header   {
   padding:30px ;
   font-size:18px;
   max-width:1200px;
-  text-align:left;
+  
 }
 .view-header {
   text-align: center;
@@ -96,15 +96,6 @@ header   {
 }
 
 .contact-icon{
-	/*color: #fff;
-	stroke-width: 1;
-	border: 1px solid white;
-	border-radius: 8px;
-	font-size: 70px;
-	margin-top: 12px;
-	margin-left: 4px;
-	margin-right: 4px;
-	padding: 8px;*/
   background: #b0b7bf;
   width: 40px;
   height: 40px;
