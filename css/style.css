@@ -203,10 +203,12 @@ a:hover {
   width: 70%;
 }
 footer   {
-  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background: #222;
   color: #777;
-  padding: 10px;
   text-align: center;
 }
 @media screen and (min-width:75em) {
@@ -242,6 +244,12 @@ footer   {
 	.view-inside{
 	width: 90%;
 		margin-bottom: 0px;
+	}
+	
+	footer{
+		padding-top: 4px;
+		padding-bottom: 4px;
+		position: relative;
 	}
 	
 }
