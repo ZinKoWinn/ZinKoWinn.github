@@ -51,7 +51,7 @@ header   {
 .view-inside p{
   padding:30px ;
   font-size:18px;
-  max-width:40em;
+  max-width:1200px;
   text-align:left;
 }
 .view-header {
@@ -70,9 +70,13 @@ header   {
 
 
 .view-item   {
-  display: inline-block;
+  
   width: 100%;
-  padding:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+.view-item p {
+  font-size:18px;
 }
 .view-item a{
   color:#4D637A;
@@ -227,6 +231,14 @@ footer   {
   padding:5px ;
   text-align: center;
 }
+@media  (min-width:75em) {
+  .view-item   {
+  
+  width: 100%;
+  padding-left:10px;
+  padding-right:10px;
+}
+  }
 @media  (max-width:45em) {
 	.contact-view{
 		height: 100%;
