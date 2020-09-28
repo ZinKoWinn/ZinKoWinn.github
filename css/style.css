@@ -153,7 +153,7 @@ a:hover {
 
 }
 .content-header{
-	width: 30em;
+	width: 55em;
 	margin: auto;
 	overflow: hidden;
 }
@@ -176,7 +176,7 @@ a:hover {
 }
 
 .location{
-	color: #000000;
+	color: #778492;
 	font-size: 16px;
 	font-weight: 100;
 	margin-bottom:10px;
